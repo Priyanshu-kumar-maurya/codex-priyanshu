@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanshu - BCA Student Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img id ="mg" src="logo.png" alt="Logo" height="50rem" width="50rem">
+        <h1>Priyanshu's Portfolio</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Welcome to Priyanshu's Portfolio</h2>
+        <p>Hi, I'm Priyanshu - a BCA Student passionate about programming and web development.</p>
+        <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I am a dedicated BCA (Bachelor of Computer Applications) student with a passion for programming and technology. Currently pursuing my degree while building practical skills in various programming languages.</p>
+            <p>My journey in computer science has equipped me with strong foundations in programming logic, web development, and problem-solving. I enjoy creating projects that combine creativity with technical expertise.</p>
+          </div>
+          <div class="about-image">
+            <img src="logo.png" alt="Priyanshu's Photo" class="student-photo">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <h2>My Skills</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Web Technologies</h3>
+            <p>HTML, CSS, JavaScript - Creating responsive and interactive web applications.</p>
+          </div>
+          <div class="service-card">
+            <h3>Programming Languages</h3>
+            <p>C, C++ - Strong foundation in core programming concepts and algorithms.</p>
+          </div>
+          <div class="service-card">
+            <h3>Problem Solving</h3>
+            <p>Data structures, algorithms, and logical thinking for efficient solutions.</p>
+          </div>
+          <div class="service-card">
+            <h3>Web Development</h3>
+            <p>Full-stack development skills with modern frameworks and tools.</p>
+          </div>
+          <div class="service-card">
+            <h3>Database Management</h3>
+            <p>Understanding of database concepts and SQL for data management.</p>
+          </div>
+          <div class="service-card">
+            <h3>Version Control</h3>
+            <p>Git and GitHub for collaborative development and project management.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Email: pk1062417@gmail.com</p>
+            <p>Phone: +91 123-3334567</p>
+            <p>Address: Mariyahu Jaunpue,Pin Code 222161</p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Priyanshu's Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
