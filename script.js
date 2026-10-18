@@ -31,9 +31,12 @@
     PAUSE_TIME: 2000,
     DEVELOPER: {
       name: 'Priyanshu Kumar Maurya',
+      role: 'Full-Stack Dev (MERN & PostgreSQL)',
       email: 'pk1062417@gmail.com',
       degree: 'BCA (Bachelor of Computer Applications)',
-      location: 'Mariyahu, Jaunpur, Uttar Pradesh, India (222161)',
+      location: 'Mumbai, Maharashtra, India',
+      native: 'Mariyahu, Jaunpur, Uttar Pradesh',
+      publicRepos: 29,
       github: 'https://github.com/Priyanshu-kumar-maurya',
       linkedin: 'https://www.linkedin.com/in/priyanshu-kumar-maurya-808718281/',
       instagram: 'https://www.instagram.com/codexs_priyanshu/',
@@ -270,9 +273,12 @@
     const COMMANDS = {
       help: () => `
 Available Commands:
-  - about       : Learn more about Priyanshu
-  - skills      : Print technical skill competencies
+  - about       : Learn more about Priyanshu & his background
+  - repos       : List real GitHub repositories & projects (29 Total)
   - projects    : View featured web projects with live URLs
+  - stats       : Live GitHub profile metrics & project stats
+  - skills      : Print technical skill competencies (MERN, SQL, C++)
+  - location    : Current city & residency details
   - education   : Display academic details (BCA Scholar)
   - contact     : Get email, location, and contact coordinates
   - socials     : Links to LinkedIn, GitHub, Instagram, Bio
@@ -284,39 +290,75 @@ Available Commands:
 `,
       about: () => `
 👨‍💻 *Priyanshu Kumar Maurya*
+Role     : Full-Stack Dev (MERN & PostgreSQL) &bull; BCA Scholar
 Degree   : Bachelor of Computer Applications (BCA)
-Role     : Full-Stack Web Developer & Creative Engineer
-Location : Mariyahu, Jaunpur, Uttar Pradesh, India
-Focus    : Modern Web Development, Clean Responsive UI/UX, Algorithmic Thinking.
-Passion  : Engineering accessible, lightning-fast web applications.
+Location : Mumbai, Maharashtra, India (Native: Jaunpur, UP)
+Repos    : 29 Public GitHub Repositories (25+ Projects Built)
+Focus    : Real-Time WebApps, WebRTC P2P Games, Accessible High-Speed UI.
+Status   : Open for Full-Stack & Frontend Opportunities in Mumbai & Remote.
 `,
       skills: () => `
 ⚡ *Technical Skills Inventory:*
-  • Frontend  : HTML5, CSS3/SCSS, JavaScript (ES6+), Responsive UI, Glassmorphism
-  • Languages : C, C++, Core JavaScript
+  • Frontend  : HTML5, CSS3/SCSS, JavaScript (ES6+), React, Responsive UI, Glassmorphism
+  • Backend   : Node.js, Express, PostgreSQL, REST APIs
+  • Languages : JavaScript, C, C++, Core Web Tech
   • CS Core   : Data Structures & Algorithms, Object-Oriented Programming (OOP), DBMS
   • Tooling   : Git, GitHub, Vercel, VS Code, Browser DevTools
 `,
       projects: () => `
-🚀 *Featured Web Creations:*
-  1. 🛍️ Aura Jewels (Earrings Shop)
+🚀 *Real GitHub Repositories (29 Total):*
+  1. 🏨 Hotel-QR-Project
+     Contactless QR Table Ordering & Kitchen Display System (KDS)
+     Code: https://github.com/Priyanshu-kumar-maurya/Hotel-QR-Project
+
+  2. 🎮 typing-fighter-game
+     Real-Time 1v1 Typing Fighting Game featuring WebRTC P2P
+     Code: https://github.com/Priyanshu-kumar-maurya/typing-fighter-game
+
+  3. 🛍️ Earrings-shop (Aura Jewels)
+     Ultra-Luxury E-Commerce Atelier with Cart Drawer & UPI Flow
      Live: https://earrings-shop.vercel.app
      Code: https://github.com/Priyanshu-kumar-maurya/Earrings-shop
-     Stack: JavaScript, Luxury CSS3, Cart Drawer, UPI Flow
 
-  2. 📚 JP Library
+  4. 📚 Jp-Library
+     Digital Study Space & Library Seat Reservation Portal
      Live: https://jp-library.vercel.app
      Code: https://github.com/Priyanshu-kumar-maurya/Jp-Library
-     Stack: JavaScript, Booking Engine, Fee Calculator, Responsive Grid
 
-  3. ⚡ Developer Bio & Link Hub
+  5. 🎵 Pure-Stream & musical-chats
+     Ad-Free Audio/Video Streamer with Background Playback
+     Code: https://github.com/Priyanshu-kumar-maurya/Pure-Stream
+
+  6. 👥 companion-app
+     Full-Stack Social Companion & Dating PWA (React & Node.js)
+     Code: https://github.com/Priyanshu-kumar-maurya/companion-app
+
+  7. ⚡ Bio (Developer Hub)
+     Personal Portfolio & Verified Social Link Hub
      Live: https://bio-delta-topaz.vercel.app
      Code: https://github.com/Priyanshu-kumar-maurya/Bio
-     Stack: HTML5, CSS3, JavaScript, Verified Socials
 
-  4. 💻 CodeX Priyanshu
-     Code: https://github.com/Priyanshu-kumar-maurya/codex-priyanshu
-     Stack: Vanilla JS, Interactive CLI Simulator, Dual Theme
+  8. 🔄 quick-swap
+     Instant Digital Contact Card & QR Exchange Web App
+     Code: https://github.com/Priyanshu-kumar-maurya/quick-swap
+
+  🔗 Explore all 29 repositories:
+     https://github.com/Priyanshu-kumar-maurya?tab=repositories
+`,
+      repos: () => COMMANDS.projects(),
+      stats: () => `
+📊 *Priyanshu's GitHub Stats:*
+  • Public Repositories: 29
+  • Projects Built     : 25+
+  • Primary Stacks     : MERN, PostgreSQL, WebRTC, Vanilla JS, C/C++
+  • Current Residence  : Mumbai, Maharashtra, India
+  • Hireable Status    : Active & Available for Opportunities
+`,
+      location: () => `
+📍 *Location Details:*
+  • Current Base : Mumbai, Maharashtra, India
+  • Native Town  : Mariyahu, Jaunpur, Uttar Pradesh (PIN 222161)
+  • Mobility     : Available for On-Site roles across Mumbai & Remote globally
 `,
       education: () => `
 🎓 *Academic Credentials:*
@@ -327,8 +369,9 @@ Passion  : Engineering accessible, lightning-fast web applications.
       contact: () => `
 📬 *Contact Coordinates:*
   • Email    : pk1062417@gmail.com
-  • Location : Mariyahu, Jaunpur, Uttar Pradesh, India - 222161
-  • Status   : Open for Web Development Projects, Internships & Collaborations
+  • Location : Mumbai, Maharashtra, India (Open for On-Site Mumbai & Remote Worldwide)
+  • Native   : Mariyahu, Jaunpur, Uttar Pradesh
+  • Status   : Open for Web Development Roles, Internships & Collaborations
 `,
       socials: () => `
 🌐 *Verified Developer Socials:*
@@ -538,7 +581,28 @@ Passion  : Engineering accessible, lightning-fast web applications.
   }
 
   // ---------------------------------------------------------------------------
-  // 11. App Bootstrap
+  // 11. Live GitHub Profile Stats Fetcher
+  // ---------------------------------------------------------------------------
+  function fetchLiveGitHubStats() {
+    const reposCountEl = document.getElementById('githubReposCount');
+    if (!reposCountEl) return;
+
+    fetch('https://api.github.com/users/Priyanshu-kumar-maurya')
+      .then(res => res.ok ? res.json() : null)
+      .then(data => {
+        if (data && typeof data.public_repos === 'number') {
+          reposCountEl.textContent = data.public_repos;
+          CONFIG.DEVELOPER.publicRepos = data.public_repos;
+        }
+      })
+      .catch(() => {
+        // Fallback to verified 29
+        reposCountEl.textContent = '29';
+      });
+  }
+
+  // ---------------------------------------------------------------------------
+  // 12. App Bootstrap
   // ---------------------------------------------------------------------------
   document.addEventListener('DOMContentLoaded', () => {
     initTheme();
@@ -549,6 +613,7 @@ Passion  : Engineering accessible, lightning-fast web applications.
     initCodeSnippetCopy();
     initContactForm();
     initHeroPerspective();
+    fetchLiveGitHubStats();
   });
 
 })();

@@ -1,24 +1,25 @@
 <div align="center">
 
 # ⚡ CodeX Priyanshu &mdash; Developer Portfolio
-### *BCA Scholar &bull; Full-Stack Web Developer &bull; Creative Software Engineer*
+### *Full-Stack Developer (MERN &bull; PostgreSQL &bull; WebRTC) &bull; BCA Scholar*
 
 [![Developer](https://img.shields.io/badge/Architect-Priyanshu_Kumar_Maurya-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Priyanshu-kumar-maurya)
-[![Degree](https://img.shields.io/badge/Degree-BCA_Computer_Applications-00f2fe?style=for-the-badge&logo=codeforces&logoColor=black)](#)
+[![Repositories](https://img.shields.io/badge/GitHub_Repos-29_Public_Projects-00f2fe?style=for-the-badge&logo=git&logoColor=black)](https://github.com/Priyanshu-kumar-maurya?tab=repositories)
+[![Current Location](https://img.shields.io/badge/Location-Mumbai,_Maharashtra,_India-ff6b6b?style=for-the-badge&logo=google-maps&logoColor=white)](#-developer-profile--connect)
+[![Degree](https://img.shields.io/badge/Degree-BCA_Computer_Applications-a855f7?style=for-the-badge&logo=codeforces&logoColor=white)](#)
 [![Theme Support](https://img.shields.io/badge/Theme-Dark_Futuristic_%7C_Light_Day-7928ca?style=for-the-badge&logo=adjust&logoColor=white)](#)
 [![Interactive CLI](https://img.shields.io/badge/Feature-Interactive_CLI_Terminal-10b981?style=for-the-badge&logo=gnubash&logoColor=white)](#-interactive-developer-cli-simulator)
-[![Status](https://img.shields.io/badge/Status-Active_%26_Open_to_Collaborations-00e676?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
 
 <br/>
 
-> **"Transforming complex algorithms and creative designs into lightning-fast, responsive digital realities."**  
-> An ultra-modern, interactive developer portfolio showcasing full-stack capabilities, academic foundations in BCA, production-ready web applications, an in-browser CLI terminal simulator, and an accessible dual-theme engine.
+> **"Transforming complex algorithms and real-time architectures into lightning-fast, responsive digital realities."**  
+> An ultra-modern, interactive developer portfolio showcasing full-stack capabilities (MERN &amp; PostgreSQL), real-time WebRTC multiplayer games, academic foundations in BCA, 29+ public GitHub repositories, and an in-browser interactive CLI terminal simulator.
 
 <br/>
 
 [✨ Live Features](#-key-features) &bull;
 [💻 Interactive Terminal](#-interactive-developer-cli-simulator) &bull;
-[🚀 Featured Creations](#-featured-production-creations) &bull;
+[🚀 Real 29 Repositories](#-featured-production-creations-29-public-repos) &bull;
 [🛠️ Technical Arsenal](#%EF%B8%8F-technical-arsenal) &bull;
 [📫 Connect with Me](#-developer-profile--connect)
 
@@ -28,9 +29,9 @@
 
 ## 🌟 Overview
 
-**CodeX Priyanshu** is the flagship interactive developer showcase of **Priyanshu Kumar Maurya**. Engineered with modern vanilla web technologies, the portfolio highlights computer science expertise, user-centric interface engineering, and real-world full-stack projects.
+**CodeX Priyanshu** is the flagship interactive developer showcase of **Priyanshu Kumar Maurya** &mdash; a dedicated Full-Stack Web Developer and BCA scholar currently living and engineering software in **Mumbai, Maharashtra, India**. 
 
-With a futuristic glassmorphic aesthetic inspired by modern developer ecosystems (Vercel, Linear, and GitHub dark mode), the website provides recruiters, engineering managers, and collaborators with an unforgettable interactive experience.
+With **29+ public GitHub repositories** and over **25+ production and experimental projects**, the portfolio highlights real-time web applications, WebRTC peer-to-peer multiplayer games, digital reservation portals, and luxury e-commerce platforms.
 
 ---
 
@@ -38,14 +39,13 @@ With a futuristic glassmorphic aesthetic inspired by modern developer ecosystems
 
 | Feature | Description |
 | :--- | :--- |
+| 📍 **Mumbai-Based Full-Stack Profile** | Accurate representation of current residence in Mumbai, Maharashtra, open for on-site roles across Mumbai as well as remote opportunities globally. |
+| 📦 **Real GitHub Inventory (29 Repos)** | Live integration and comprehensive showcase of 29 real repositories spanning MERN stack, WebRTC, restaurant automation, audio streaming, and e-commerce. |
 | 🌙 **Dual Futuristic Theme Engine** | Seamless toggle between **Dark Futuristic Mode** (Obsidian `#080c15` with Neon Cyan &amp; Violet glow) and **Light Daylight Mode** with persistent `localStorage` preference. |
-| 💻 **In-Browser Interactive CLI** | Fully functional terminal simulator allowing visitors to query commands (`help`, `about`, `skills`, `projects`, `education`, `contact`, `sudo hire`, `clear`) directly or via quick-action chips. |
-| ⌨️ **Dynamic Typewriter Headline** | Smooth animated title streamer cycling through key specializations: *Full-Stack Web Developer*, *BCA Scholar*, *UI/UX Architect*, and *Creative Engineer*. |
-| 🧩 **Categorized Technical Arsenal** | Interactive skill filters across **Frontend &amp; UI**, **Programming Languages (C, C++, JS)**, **Tools &amp; Workflow (Git, GitHub, Vercel)**, and **Core CS (DSA, DBMS, OOP)**. |
-| 🚀 **Curated Production Showcase** | Detailed project cards with live demo links, repository badges, architecture tags, and responsive previews. |
-| 📱 **Mobile-First Responsive Drawer** | Fluid hamburger navigation drawer with backdrop blur, active scroll spy indicators, and smooth anchor jumping. |
-| 📋 **One-Click Config Snippet Copy** | Interactive developer card in the hero section allowing visitors to copy configuration code directly to the clipboard. |
-| 🛡️ **Zero Framework Bloat** | 100% pure HTML5, CSS3 Custom Properties (Design Tokens), and ES6+ JavaScript for blazing sub-second load times. |
+| 💻 **In-Browser Interactive CLI** | Fully functional terminal simulator allowing visitors to query commands (`help`, `about`, `repos`, `projects`, `stats`, `location`, `skills`, `education`, `contact`, `sudo hire`, `clear`). |
+| ⌨️ **Dynamic Typewriter Headline** | Smooth animated title streamer cycling through: *Full-Stack Web Developer*, *BCA Scholar & Programmer*, *UI/UX & Frontend Architect*, *Real-Time Game Developer*. |
+| 🧩 **Categorized Technical Arsenal** | Interactive skill filters across **Frontend &amp; UI**, **Backend &amp; MERN (Node, Express, PostgreSQL)**, **Programming Languages (C, C++, JS)**, and **Core CS (DSA, DBMS, OOP)**. |
+| 📱 **Mobile-First Responsive Engine** | 100% phone-responsive with touch ergonomics (48px tap targets, zero horizontal scroll, iOS auto-zoom prevention, and swipeable tabs). |
 
 ---
 
@@ -56,9 +56,12 @@ The portfolio features a built-in interactive terminal emulator. Visitors can ty
 ```bash
 guest@codex:~$ help
 Available Commands:
-  - about       : Learn more about Priyanshu's background
-  - skills      : Print technical skill competencies
+  - about       : Learn more about Priyanshu & his background
+  - repos       : List real GitHub repositories & projects (29 Total)
   - projects    : View featured web projects with live URLs
+  - stats       : Live GitHub profile metrics & project stats
+  - skills      : Print technical skill competencies (MERN, SQL, C++)
+  - location    : Current city & residency details (Mumbai, IN)
   - education   : Display academic details (BCA Scholar)
   - contact     : Get email, location, and contact coordinates
   - socials     : Direct links to LinkedIn, GitHub, Instagram, Bio
@@ -70,38 +73,72 @@ Available Commands:
 
 ---
 
-## 🚀 Featured Production Creations
+## 🚀 Featured Production Creations (29 Public Repos)
 
-A curated selection of modern applications developed and maintained by Priyanshu:
+A curated selection of real-world applications engineered and maintained by Priyanshu:
 
-### 1. [Aura Jewels &mdash; Elegant Earrings Atelier](https://earrings-shop.vercel.app)
+### 1. [Hotel-QR-Project &mdash; Smart Contactless QR Table Ordering & KDS](https://github.com/Priyanshu-kumar-maurya/Hotel-QR-Project)
+- **Domain:** Restaurant Automation / Smart QR / KDS
+- **Stack:** JavaScript, Real-Time Sockets, QR Generator, Kitchen Display System
+- **Highlights:** Contactless QR table ordering, live kitchen preparation sync, dynamic table billing, and interactive digital menus.
+- **Link:** [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/Hotel-QR-Project)
+
+### 2. [Typing Fighter &mdash; Real-Time 1v1 WebRTC Game](https://github.com/Priyanshu-kumar-maurya/typing-fighter-game)
+- **Domain:** Multiplayer Gaming / WebRTC P2P
+- **Stack:** JavaScript, WebRTC Peer-to-Peer, Canvas & DOM API, Audio Synthesizer
+- **Highlights:** 25-stage campaign, real-time typing combat mechanics, health bar physics, and P2P peer matchmaking.
+- **Link:** [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/typing-fighter-game)
+
+### 3. [Aura Jewels &mdash; Elegant Earrings Atelier](https://earrings-shop.vercel.app)
 - **Domain:** E-Commerce / Luxury UI
-- **Stack:** JavaScript (ES6+), Luxury Obsidian/Gold CSS3, Cart Drawer, Unified UPI QR Gateway
-- **Features:** Dual theme engine, slide-out shopping bag drawer, 24 handcrafted earrings, live search drawer, instant WhatsApp receipt dispatch.
+- **Stack:** JavaScript (ES6+), Luxury Obsidian/Gold CSS3, Cart Drawer, UPI Gateway
+- **Highlights:** Obsidian Dark & Pearl Ivory daylight themes, slide-out bag drawer, live category filtering, and unified UPI QR + WhatsApp instant dispatch.
 - **Links:** [Live Demo](https://earrings-shop.vercel.app) &bull; [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/Earrings-shop)
 
-### 2. [JP Library &mdash; Digital Study Space Portal](https://jp-library.vercel.app)
+### 4. [JP Library &mdash; Digital Study Space Portal](https://jp-library.vercel.app)
 - **Domain:** Web Application / Booking Engine
 - **Stack:** JavaScript, CSS Grid, LocalStorage, Responsive Ergonomics
-- **Features:** Real-time seat reservation engine, categorized study shifts, live fee calculator, interactive gallery, and admission inquiries.
+- **Highlights:** Real-time seat reservation engine, categorized study shifts, live fee calculator, interactive gallery, and admission inquiries.
 - **Links:** [Live Demo](https://jp-library.vercel.app) &bull; [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/Jp-Library)
 
-### 3. [Developer Bio & Link-in-Bio Hub](https://bio-delta-topaz.vercel.app)
+### 5. [Pure-Stream &mdash; Ad-Free YouTube & Media Player](https://github.com/Priyanshu-kumar-maurya/Pure-Stream)
+- **Domain:** Media Streaming / Audio Engine
+- **Stack:** JavaScript, Media Stream API, Background Audio, PWA
+- **Highlights:** Continuous background playback, zero banner ads, playlist management, and disguised private chat channels (`musical-chats`).
+- **Link:** [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/Pure-Stream)
+
+### 6. [Companion App &mdash; Full-Stack Social Dating PWA](https://github.com/Priyanshu-kumar-maurya/companion-app)
+- **Domain:** Social Networking / PWA
+- **Stack:** React, Node.js, Express, Progressive Web App
+- **Highlights:** Verified companion profiles, responsive swipe cards, real-time messaging, and PWA offline support.
+- **Link:** [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/companion-app)
+
+### 7. [Developer Bio & Link-in-Bio Hub](https://bio-delta-topaz.vercel.app)
 - **Domain:** Portfolio & Bio Hub
 - **Stack:** HTML5, CSS3, JavaScript, Glassmorphic UI
-- **Features:** Verified social connections, skill radars, project index, and responsive touch controls.
+- **Highlights:** Verified social connections, skill radars, project index, and responsive touch controls.
 - **Links:** [Live Demo](https://bio-delta-topaz.vercel.app) &bull; [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/Bio)
+
+### 8. [Quick-Swap &mdash; Instant Digital Contact Exchange](https://github.com/Priyanshu-kumar-maurya/quick-swap)
+- **Domain:** Smart Networking / QR Tools
+- **Stack:** JavaScript, QR Code API, vCard Protocol
+- **Highlights:** Exchange digital business cards in 2 seconds with instant QR scanning and zero app installation.
+- **Link:** [GitHub Repository](https://github.com/Priyanshu-kumar-maurya/quick-swap)
+
+> 🔗 **Explore all 29 public repositories on GitHub:**  
+> [https://github.com/Priyanshu-kumar-maurya?tab=repositories](https://github.com/Priyanshu-kumar-maurya?tab=repositories)
 
 ---
 
 ## 🛠️ Technical Arsenal
 
 ```
-Frontend & UI        : HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, Glassmorphism
-Languages            : C, C++, JavaScript
-Computer Science     : Data Structures & Algorithms, Object-Oriented Programming (OOP), DBMS & SQL
-Tools & Environment  : Git, GitHub, VS Code, Chrome DevTools, Vercel, Markdown
-Methodologies        : Mobile-First Design, Clean Code, Semantic Markup, SEO & Accessibility
+Frontend & UI        : HTML5, CSS3, JavaScript (ES6+), React, Tailwind CSS, Glassmorphism
+Backend & Database   : Node.js, Express.js, PostgreSQL, MongoDB, REST APIs
+Real-Time & Gaming   : WebRTC (Peer-to-Peer), WebSockets, HTML5 Canvas, Web Audio API
+Programming Core     : JavaScript, C, C++, Data Structures & Algorithms, OOP
+Tools & Environment  : Git, GitHub, VS Code, Vercel, Chrome DevTools, Linux/CLI
+Methodologies        : Mobile-First Responsive Design, Clean Code Architecture, Accessible UI
 ```
 
 ---
@@ -128,24 +165,15 @@ open index.html
 xdg-open index.html
 ```
 
-Or run via any local server:
-```bash
-# Python 3
-python -m http.server 3000
-
-# Node / npx
-npx serve .
-```
-
 ---
 
 ## 📁 Repository Structure
 
 ```
 codex-priyanshu/
-├── index.html       # Semantic single-page portfolio layout with SEO tags
+├── index.html       # Semantic single-page portfolio layout with SEO & OpenGraph tags
 ├── style.css        # Futuristic design tokens, neon glassmorphism & responsive media queries
-├── script.js        # Dynamic typewriter, CLI terminal simulator, theme engine, and toast system
+├── script.js        # Dynamic typewriter, CLI terminal simulator, live GitHub fetcher, theme engine
 ├── logo.png         # Signature developer avatar
 └── README.md        # Comprehensive documentation & project guide
 ```
@@ -155,8 +183,10 @@ codex-priyanshu/
 ## 👤 Developer Profile & Connect
 
 **Priyanshu Kumar Maurya**  
-*Bachelor of Computer Applications (BCA) &bull; Software Developer*  
-📍 Mariyahu, Jaunpur, Uttar Pradesh, India &bull; PIN: 222161
+*Full-Stack Web Developer (MERN &bull; PostgreSQL) &bull; BCA Scholar*  
+📍 **Current Residence:** Mumbai, Maharashtra, India  
+🏡 **Native Town:** Mariyahu, Jaunpur, Uttar Pradesh &bull; PIN: 222161  
+💼 **Mobility:** Available for On-Site Roles across Mumbai &amp; Remote Globally
 
 [![Email](https://img.shields.io/badge/Email-pk1062417@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pk1062417@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Priyanshu_Maurya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanshu-kumar-maurya-808718281/)
@@ -167,5 +197,5 @@ codex-priyanshu/
 ---
 
 <div align="center">
-  <sub>&copy; 2026 Priyanshu Kumar Maurya. Built with passion and clean code.</sub>
+  <sub>&copy; 2026 Priyanshu Kumar Maurya. Built with passion and clean code. Mumbai, India.</sub>
 </div>
